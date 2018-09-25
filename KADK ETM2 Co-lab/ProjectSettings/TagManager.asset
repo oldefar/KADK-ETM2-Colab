@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - Environment
-  - 
-  - 
+  - Monkey_Body
+  - Monkey_Fist
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Monkey_background
+    uniqueID: 1977706969
+    locked: 0
+  - name: Monkey_level
+    uniqueID: 3957724867
+    locked: 0
+  - name: Monkey_player
+    uniqueID: 3249188007
     locked: 0
