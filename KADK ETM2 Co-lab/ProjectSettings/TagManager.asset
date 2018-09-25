@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: EvenMoreBackground
+    uniqueID: 234045151
+    locked: 0
   - name: Monkey_background
     uniqueID: 1977706969
     locked: 0
