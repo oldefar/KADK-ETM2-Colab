@@ -114,7 +114,7 @@ TextureImporter:
         x: 0
         y: 16
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,7 +122,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de3d058f557eeca46979e8b078418827
+      spriteID: d31940522c8efaa488b6cbb3233fce78
       vertices: []
       indices: 
       edges: []
@@ -131,10 +131,10 @@ TextureImporter:
       name: slime_run_1
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 15
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,7 +142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5406fd52bb994c64db4f3e321b824bca
+      spriteID: 0f35a57231ae2c242b159dda911a5732
       vertices: []
       indices: 
       edges: []
