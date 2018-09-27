@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114365290069469118}
   m_Layer: 0
   m_Name: rogue
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,8 +41,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1731741182329656}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: -0.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -836,8 +836,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 670
-        y: 221
+        x: 238
+        y: 109
         width: 147
         height: 32
       isBreakpoint: 0
@@ -1024,8 +1024,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 688
-        y: 447
+        x: 256
+        y: 335
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1197,8 +1197,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 682
-        y: 280.9922
+        x: 250
+        y: 168.99219
         width: 118
         height: 48
       isBreakpoint: 0
@@ -1350,8 +1350,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 489.98438
-        y: 330
+        x: 57.984375
+        y: 218
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1464,8 +1464,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 688
-        y: 382
+        x: 256
+        y: 270
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1573,7 +1573,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 20
+        value: 11
       - useVariable: 1
         name: JumpInput
         tooltip: 
@@ -1623,7 +1623,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
