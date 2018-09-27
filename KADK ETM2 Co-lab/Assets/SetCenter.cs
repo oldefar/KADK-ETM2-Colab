@@ -6,7 +6,7 @@ public class SetCenter : MonoBehaviour {
 
     public GameObject target;
     public float zPosition = -10;
-    public Vector2 partyPosition;
+    public Vector2 partyCentroid;
     public Vector2 previousPos;
 
 	Vector2 CalculateCentroid () {
@@ -28,7 +28,7 @@ public class SetCenter : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
         previousPos = transform.position;
-		partyPosition = CalculateCentroid();
-        transform.position = new Vector3(partyPosition.x, partyPosition.y, zPosition);
+		partyCentroid = CalculateCentroid();
+        transform.position = new Vector3(partyCentroid.x, partyCentroid.y, zPosition);
 	}
 }
