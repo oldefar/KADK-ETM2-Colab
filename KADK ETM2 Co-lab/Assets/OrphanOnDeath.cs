@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-    [ActionCategory(ActionCategory.GameObject)]
+    [ActionCategory(ActionCategory.GameObject) 
     [Tooltip("Decouples the GameObject from its parent.")]
     public class OrphanOnDeath : FsmStateAction
     {
