@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Ground
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -69,4 +70,7 @@ TagManager:
     locked: 0
   - name: Monkey_player
     uniqueID: 3249188007
+    locked: 0
+  - name: UI
+    uniqueID: 3100325261
     locked: 0
