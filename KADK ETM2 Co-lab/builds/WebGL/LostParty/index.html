@@ -10,9 +10,16 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/LostParty.json", {onProgress: UnityProgress});
+
+      window.onload = function(){
+        window.focus();
+      }
+      window.onclick = function(){
+        window.focus();
+      }
     </script>
   </head>
-  <body>
+  <body style="background-color:#333;">
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
